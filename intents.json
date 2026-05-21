@@ -1,0 +1,159 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["hello", "hi", "hey", "good morning", "good evening", "good afternoon", "namaste", "hii"],
+      "responses": ["Hello! How can I help you today?", "Hi! What health issue can I assist with?", "Welcome to Health Assistant! How may I help you?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["bye", "goodbye", "see you", "thank you", "thanks", "ok bye", "alvida"],
+      "responses": ["Take care! Stay healthy.", "Goodbye! Get well soon.", "Thank you for visiting. Stay safe!"]
+    },
+    {
+      "tag": "fever",
+      "patterns": ["I have fever", "high temperature", "body is hot", "bukhar hai", "temperature hai", "feeling hot", "mild fever", "fever since 2 days", "fever not going"],
+      "responses": ["Drink plenty of water, rest, and take paracetamol. If fever exceeds 103°F, visit a doctor immediately."]
+    },
+    {
+      "tag": "cold",
+      "patterns": ["I have cold", "runny nose", "sneezing", "blocked nose", "sardi hai", "naak band hai", "cough and cold", "common cold"],
+      "responses": ["Take steam inhalation, drink warm water and rest. If symptoms persist more than 5 days, consult a doctor."]
+    },
+    {
+      "tag": "cough",
+      "patterns": ["I have cough", "dry cough", "wet cough", "khansi hai", "coughing a lot", "cough since many days", "throat irritation"],
+      "responses": ["Drink warm water with honey and ginger. Avoid cold drinks. If cough persists more than a week, visit a doctor."]
+    },
+    {
+      "tag": "headache",
+      "patterns": ["I have headache", "head pain", "sir dard hai", "migraine", "head is paining", "severe headache", "headache daily"],
+      "responses": ["Rest in a quiet dark room, drink water and take paracetamol. If headache is severe or frequent, consult a neurologist."]
+    },
+    {
+      "tag": "stomach_pain",
+      "patterns": ["stomach pain", "pet dard hai", "abdominal pain", "stomach ache", "belly pain", "pain in stomach", "gas problem", "acidity"],
+      "responses": ["Avoid spicy food, drink warm water. Take antacid if acidity. If pain is severe or continuous, visit a gastroenterologist."]
+    },
+    {
+      "tag": "vomiting",
+      "patterns": ["vomiting", "nausea", "ulti ho rahi hai", "feeling like vomiting", "nausea and vomiting", "motion sickness"],
+      "responses": ["Rest and drink ORS or lime water. Avoid solid food for some time. If vomiting continues for more than 24 hours, visit a doctor."]
+    },
+    {
+      "tag": "diarrhea",
+      "patterns": ["diarrhea", "loose motions", "dast lag rahe hain", "loose stool", "stomach upset", "watery stool"],
+      "responses": ["Drink ORS solution, avoid oily food. Stay hydrated. If more than 5 times a day, visit a doctor immediately."]
+    },
+    {
+      "tag": "chest_pain",
+      "patterns": ["chest pain", "seene mein dard", "heart pain", "chest tightness", "pain in chest", "chest pressure"],
+      "responses": ["Chest pain can be serious. Please sit down and call 108 immediately or go to the nearest emergency room!"]
+    },
+    {
+      "tag": "breathing",
+      "patterns": ["breathing problem", "saans nahi aa rahi", "shortness of breath", "difficulty breathing", "can't breathe", "breathlessness"],
+      "responses": ["This is an emergency! Call 108 immediately. Sit upright and try to stay calm until help arrives."]
+    },
+    {
+      "tag": "emergency",
+      "patterns": ["emergency", "accident", "unconscious", "faint", "serious condition", "critical", "ambulance chahiye", "help me"],
+      "responses": ["Call 108 immediately! This is an emergency. Go to the nearest hospital emergency ward right away."]
+    },
+    {
+      "tag": "appointment",
+      "patterns": ["book appointment", "see a doctor", "OPD", "doctor se milna hai", "appointment chahiye", "doctor booking", "consult doctor", "checkup"],
+      "responses": ["Please call our helpline 1800-XXX-XXX or visit the OPD counter between 9AM-5PM Monday to Saturday."]
+    },
+    {
+      "tag": "blood_pressure",
+      "patterns": ["high blood pressure", "low blood pressure", "BP high hai", "BP low hai", "hypertension", "BP problem", "blood pressure check"],
+      "responses": ["Monitor your BP regularly. Avoid salt and stress for high BP. For low BP, drink more fluids. Consult a cardiologist for proper treatment."]
+    },
+    {
+      "tag": "diabetes",
+      "patterns": ["diabetes", "sugar problem", "blood sugar high", "sugar hai mujhe", "insulin", "diabetic", "glucose level high"],
+      "responses": ["Maintain a healthy diet, exercise daily and take medicines on time. Monitor blood sugar regularly and visit your endocrinologist."]
+    },
+    {
+      "tag": "skin_problem",
+      "patterns": ["skin rash", "itching", "khujli ho rahi hai", "skin allergy", "redness on skin", "pimples", "skin infection", "eczema"],
+      "responses": ["Avoid scratching the affected area. Apply calamine lotion for itching. Consult a dermatologist for proper diagnosis."]
+    },
+    {
+      "tag": "eye_problem",
+      "patterns": ["eye pain", "red eyes", "eye infection", "aankh mein dard", "blurry vision", "eye irritation", "conjunctivitis", "pink eye"],
+      "responses": ["Do not rub your eyes. Wash with clean water. If redness or pain persists, visit an ophthalmologist immediately."]
+    },
+    {
+      "tag": "dental",
+      "patterns": ["tooth pain", "toothache", "dant dard", "gum pain", "dental problem", "cavity", "broken tooth", "mouth pain"],
+      "responses": ["Rinse with warm salt water. Take a painkiller for relief. Visit a dentist as soon as possible for proper treatment."]
+    },
+    {
+      "tag": "back_pain",
+      "patterns": ["back pain", "kamar dard", "lower back pain", "spine pain", "back ache", "sitting back pain", "back hurts"],
+      "responses": ["Rest and apply hot or cold pack. Avoid heavy lifting. Do gentle stretching. If pain is severe, consult an orthopedic doctor."]
+    },
+    {
+      "tag": "joint_pain",
+      "patterns": ["joint pain", "knee pain", "ghutne mein dard", "arthritis", "swollen joints", "joint swelling", "shoulder pain"],
+      "responses": ["Apply ice pack and rest the joint. Take anti-inflammatory medicine. Consult a rheumatologist or orthopedic specialist."]
+    },
+    {
+      "tag": "mental_health",
+      "patterns": ["feeling depressed", "anxiety", "stress", "mental health", "feeling sad", "panic attack", "not sleeping", "insomnia", "worried all the time"],
+      "responses": ["Your mental health matters. Please talk to someone you trust. Our hospital has a psychiatry department — please book an appointment. You are not alone."]
+    },
+    {
+      "tag": "hospital_timing",
+      "patterns": ["hospital timing", "OPD time", "when is hospital open", "hospital hours", "clinic timing", "doctor available time"],
+      "responses": ["Our OPD is open Monday to Saturday, 9AM to 5PM. Emergency services are available 24x7."]
+    },
+    {
+      "tag": "hospital_location",
+      "patterns": ["hospital address", "where is hospital", "hospital location", "how to reach hospital", "hospital kahan hai"],
+      "responses": ["Our hospital is located at 123 Health Street, Medical Colony. Nearest landmark is City Bus Stand. Google Maps link: maps.google.com"]
+    },
+    {
+      "tag": "ambulance",
+      "patterns": ["ambulance", "need ambulance", "ambulance bhejo", "call ambulance", "ambulance service"],
+      "responses": ["Call 108 for free ambulance service. Our hospital ambulance: 1800-XXX-108. Available 24x7."]
+    },
+    {
+      "tag": "medicine_info",
+      "patterns": ["medicine for fever", "which tablet to take", "paracetamol dose", "medicine for cold", "antibiotic", "tablet name", "dawa batao"],
+      "responses": ["I can give general guidance but please consult a doctor before taking any medicine. Self-medication can be harmful."]
+    },
+    {
+      "tag": "covid",
+      "patterns": ["covid symptoms", "corona", "covid test", "covid positive", "covid treatment", "covid isolation", "corona symptoms"],
+      "responses": ["Common COVID symptoms: fever, cough, loss of smell/taste. Isolate yourself, wear mask and get tested. Contact your nearest health center."]
+    },
+    {
+      "tag": "vaccination",
+      "patterns": ["vaccination", "vaccine", "immunization", "covid vaccine", "baby vaccine", "tetanus", "vaccination center", "tikka lagwana hai"],
+      "responses": ["Vaccination is available at our hospital every Tuesday and Friday, 10AM to 2PM. Bring your vaccination card. Call 1800-XXX-VAC for details."]
+    },
+    {
+      "tag": "pregnancy",
+      "patterns": ["pregnancy", "pregnant", "antenatal care", "prenatal checkup", "delivery", "gynecologist", "garbhavati hun", "baby delivery"],
+      "responses": ["Congratulations! Please visit our gynecology department for regular antenatal checkups. OPD timing: 10AM to 1PM daily."]
+    },
+    {
+      "tag": "child_health",
+      "patterns": ["child fever", "baby not eating", "child vomiting", "baby rash", "infant health", "pediatric", "bachche ko bukhar", "newborn care"],
+      "responses": ["For child health concerns, please visit our pediatrics department. Available Monday to Saturday 9AM to 4PM. Emergency pediatric care 24x7."]
+    },
+    {
+      "tag": "blood_test",
+      "patterns": ["blood test", "lab test", "pathology", "CBC test", "sugar test", "blood report", "khoon ki janch", "diagnostic test"],
+      "responses": ["Our pathology lab is open 7AM to 7PM daily. Blood tests can be done without appointment. Reports ready within 4-6 hours."]
+    },
+    {
+      "tag": "insurance",
+      "patterns": ["health insurance", "cashless treatment", "insurance claim", "bima", "ayushman card", "insurance accepted", "CGHS"],
+      "responses": ["We accept Ayushman Bharat, CGHS, ECHS and most private insurance. Please carry your insurance card. Contact billing counter for details."]
+    }
+  ]
+}
